@@ -1,9 +1,19 @@
 
 
 body{
-  color: black;
+  color: rgba(30, 85, 179, 1);
   margin: auto;
+  background-image: url(../image/wall.jpg);
+  background-size: cover;
+}
 
+.legendarybox{
+  height: 270px;
+  width: 545px;
+  margin: auto;
+  padding-bottom: 50px;
+  background-image: url(../image/legendary.png);
+  background-repeat: no-repeat;
 
 }
 
@@ -16,6 +26,10 @@ body{
   height: 200px;
   border: solid 8px black;
   float: left;
+}
+
+.box:hover{
+  background-color: rgba(77, 77, 77, .5);
 }
 
 .gameboard1{
