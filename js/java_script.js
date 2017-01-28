@@ -1,62 +1,4 @@
 
-var currentPlayer = 'X'
-function switchPlayer(){
-  if (currentPlayer = 'X') {
-    currentPlayer = 'O'
-  }else {
-    currentPlayer = 'X'
-  }
-}
-
-
-
-
-var board = ['box1', 'box2', 'box3', 'box4', 'box5', 'box6', 'box7', 'box8', 'box9']
-
-
-//---------
-
-
-document.getElementById('box1').addEventListener('click', function(){
-  switchPlayer(document.getElementById('box1').innerHTML = currentPlayer)
-});
-
-document.getElementById('box2').addEventListener('click', function(){
-  switchPlayer(document.getElementById('box2').innerHTML = currentPlayer)
-});
-
-document.getElementById('box3').addEventListener('click', function(){
-  switchPlayer(document.getElementById('box3').innerHTML = currentPlayer)
-});
-
-document.getElementById('box4').addEventListener('click', function(){
-  switchPlayer(document.getElementById('box4').innerHTML = currentPlayer)
-});
-
-document.getElementById('box5').addEventListener('click', function(){
-  switchPlayer(document.getElementById('box5').innerHTML = currentPlayer)
-});
-
-document.getElementById('box6').addEventListener('click', function(){
-  switchPlayer(document.getElementById('box6').innerHTML = currentPlayer)
-});
-
-document.getElementById('box7').addEventListener('click', function(){
-  switchPlayer(document.getElementById('box7').innerHTML = currentPlayer)
-});
-
-document.getElementById('box8').addEventListener('click', function(){
-  switchPlayer(document.getElementById('box8').innerHTML = currentPlayer)
-});
-
-document.getElementById('box9').addEventListener('click', function(){
-  switchPlayer(document.getElementById('box9').innerHTML = currentPlayer)
-});
-
-//-----------------------------------------------
-
-
-
 var xWin = "'X' Wins!"
 var oWin = "'O' Wins!"
 
@@ -177,3 +119,70 @@ if (box7.innerHTML == "O") {
     }
   }
 }
+
+//--------------------------
+var currentPlayer = 'X'
+
+function switchPlayer(){
+  if (currentPlayer === 'X') {
+    currentPlayer = 'O'
+  }else {
+    currentPlayer = 'X'
+  }
+}
+
+
+
+
+var board = ['box1', 'box2', 'box3', 'box4', 'box5', 'box6', 'box7', 'box8', 'box9']
+
+
+//---------
+
+
+document.getElementById('box1').addEventListener('click', function(){
+  document.getElementById('box1').innerHTML = currentPlayer
+  switchPlayer()
+});
+
+document.getElementById('box2').addEventListener('click', function(){
+  document.getElementById('box2').innerHTML = currentPlayer
+  switchPlayer()
+});
+
+document.getElementById('box3').addEventListener('click', function(){
+  document.getElementById('box3').innerHTML = currentPlayer
+  switchPlayer()
+});
+
+document.getElementById('box4').addEventListener('click', function(){
+  document.getElementById('box4').innerHTML = currentPlayer
+  switchPlayer()
+});
+
+document.getElementById('box5').addEventListener('click', function(){
+  document.getElementById('box5').innerHTML = currentPlayer
+  switchPlayer()
+});
+
+document.getElementById('box6').addEventListener('click', function(){
+  document.getElementById('box6').innerHTML = currentPlayer
+  switchPlayer()
+});
+
+document.getElementById('box7').addEventListener('click', function(){
+  document.getElementById('box7').innerHTML = currentPlayer
+  switchPlayer()
+});
+
+document.getElementById('box8').addEventListener('click', function(){
+  document.getElementById('box8').innerHTML = currentPlayer
+  switchPlayer()
+});
+
+document.getElementById('box9').addEventListener('click', function(){
+  document.getElementById('box9').innerHTML = currentPlayer
+  switchPlayer()
+});
+
+//-----------------------------------------------
