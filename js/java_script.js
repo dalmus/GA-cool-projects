@@ -1,13 +1,14 @@
 
-
-document.getElementById('id').addEventListener('click', function(){
-    if () {
-
-    }
+var currentPlayer = 'X'
+function switchPlayer(){
+  if (currentPlayer = 'X') {
+    currentPlayer = 'O'
+  }else {
+    currentPlayer = 'X'
+  }
 }
 
-    }
-});
+
 
 
 var board = ['box1', 'box2', 'box3', 'box4', 'box5', 'box6', 'box7', 'box8', 'box9']
@@ -17,39 +18,39 @@ var board = ['box1', 'box2', 'box3', 'box4', 'box5', 'box6', 'box7', 'box8', 'bo
 
 
 document.getElementById('box1').addEventListener('click', function(){
-  alert('Hello')
+  switchPlayer(document.getElementById('box1').innerHTML = currentPlayer)
 });
 
 document.getElementById('box2').addEventListener('click', function(){
-  alert('Hello')
+  switchPlayer(document.getElementById('box2').innerHTML = currentPlayer)
 });
 
 document.getElementById('box3').addEventListener('click', function(){
-  alert('Hello')
+  switchPlayer(document.getElementById('box3').innerHTML = currentPlayer)
 });
 
 document.getElementById('box4').addEventListener('click', function(){
-  alert('Hello')
+  switchPlayer(document.getElementById('box4').innerHTML = currentPlayer)
 });
 
 document.getElementById('box5').addEventListener('click', function(){
-  alert('Hello')
+  switchPlayer(document.getElementById('box5').innerHTML = currentPlayer)
 });
 
 document.getElementById('box6').addEventListener('click', function(){
-  alert('Hello')
+  switchPlayer(document.getElementById('box6').innerHTML = currentPlayer)
 });
 
 document.getElementById('box7').addEventListener('click', function(){
-  alert('Hello')
+  switchPlayer(document.getElementById('box7').innerHTML = currentPlayer)
 });
 
 document.getElementById('box8').addEventListener('click', function(){
-  alert('Hello')
+  switchPlayer(document.getElementById('box8').innerHTML = currentPlayer)
 });
 
 document.getElementById('box9').addEventListener('click', function(){
-  alert('Hello')
+  switchPlayer(document.getElementById('box9').innerHTML = currentPlayer)
 });
 
 //-----------------------------------------------
