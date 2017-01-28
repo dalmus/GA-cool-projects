@@ -1,0 +1,37 @@
+
+
+body{
+  color: black;
+  margin: auto;
+
+
+}
+
+.title{
+  text-align: center;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  border: solid 8px black;
+  float: left;
+}
+
+.gameboard1{
+  width:  648px;
+  height: 216px;
+  margin: auto;
+}
+
+.gameboard2{
+  width:  648px;
+  height: 216px;
+  margin: auto;
+}
+
+.gameboard3{
+  width:  648px;
+  height: 216px;
+  margin: auto;
+}
