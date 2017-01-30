@@ -27,6 +27,7 @@ body{
   border: solid 8px black;
   float: left;
   font-size: 200px;
+  font-family: fantasy;
 }
 
 .box:hover{
@@ -68,4 +69,10 @@ body{
 
 .reset:hover{
   background-color: rgba(138, 138, 138, .8)
+}
+
+#winnertext{
+  font-size: 50px;
+  margin: auto;
+  font-family: fantasy;
 }

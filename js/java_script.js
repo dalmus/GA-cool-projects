@@ -1,6 +1,6 @@
 
-var xWin = "'X' Wins!"
-var oWin = "'O' Wins!"
+var xWin = "X Wins!"
+var oWin = "O Wins!"
 
 var winnerText = document.getElementById("winnertext")
 
@@ -121,6 +121,7 @@ if (box7.innerHTML == "O") {
 }
 }
 
+
 //--Taking turns
 var currentPlayer = 'X'
 
@@ -131,6 +132,8 @@ function switchPlayer(){
     currentPlayer = 'X'
   }
 }
+
+
 
 
 var board = ['box1', 'box2', 'box3', 'box4', 'box5', 'box6', 'box7', 'box8', 'box9']
