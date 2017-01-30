@@ -14,8 +14,8 @@ var box7 = document.getElementById("box7")
 var box8 = document.getElementById("box8")
 var box9 = document.getElementById("box9")
 
-winnerText.innerHTML = ""
-
+winnerText.innerHTML = ''
+function posibilities(){
 // All posibilities of X to win
 if (box1.innerHTML == "X") {
   if (box2.innerHTML == "X") {
@@ -119,8 +119,9 @@ if (box7.innerHTML == "O") {
     }
   }
 }
+}
 
-//--------------------------
+//--Taking turns
 var currentPlayer = 'X'
 
 function switchPlayer(){
@@ -252,3 +253,15 @@ document.getElementById('reset').addEventListener('click', function(){
     //   array[i]
     // }
 // });
+
+
+// var winnerComb = [
+//   [0, 1, 2],
+//   [3, 4, 5],
+//   [6, 7, 8],
+//   [0, 3, 6],
+//   [1, 4, 7],
+//   [2, 5, 8],
+//   [0, 4, 8],
+//   [2, 4, 6]
+// ]
